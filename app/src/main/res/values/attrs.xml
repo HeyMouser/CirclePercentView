@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="MyText" format="string" />
+        <attr name="MyTextColor" format="color" />
+        <attr name="MyTextSize" format="dimension" />
+    </declare-styleable>
+
+    <attr name="titleText" format="string" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleTextSize" format="dimension" />
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize" />
+    </declare-styleable>
+    <declare-styleable name="CirclePercentView">
+        <attr name="circleBg" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="progressWidth" format="dimension" />
+        <attr name="percentSize" format="dimension" />
+        <attr name="percentColor" format="color" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+</resources>

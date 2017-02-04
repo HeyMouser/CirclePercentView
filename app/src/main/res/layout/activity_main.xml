@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cust="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.yh.customviewone.MainActivity">
+    <!--
+        <com.yh.customviewone.CustomTitleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            cust:titleText="1234"
+            cust:titleTextColor="#ff0000"
+            cust:titleTextSize="18sp" />
+
+        <com.yh.customviewone.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            cust:MyText="1234"
+            cust:MyTextColor="#ff0000"
+            cust:MyTextSize="18sp" />
+    -->
+    <com.yh.customviewone.CirclePercentView
+        android:id="@+id/circleView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        cust:circleBg="#3d3d3d"
+        cust:percentColor="#ff0000"
+        cust:percentSize="50sp"
+        cust:progressColor="#0efefe"
+        cust:progressWidth="5dp"
+        cust:radius="100dp" />
+</LinearLayout>
